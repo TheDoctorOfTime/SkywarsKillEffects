@@ -57,6 +57,13 @@ public class GuiKillEffectSelector implements Listener {
 				"§7cosmetic.",
 				"",
 				(!killEffectManager.hasSelected(p, "FINAL_SMASH") ? "§eClick to select!" : "§aSELECTED!"));
+		ItemStack NOTES_PULSE = new CustomItem(killEffectManager.getKillEffectById("NOTES_PULSE").getIcon(), 1,
+				"§aNotes Pulse Kill Effect",
+				"§7Select the Notes Pulse",
+				"§7Kill Effect. This change is",
+				"§7cosmetic.",
+				"",
+				(!killEffectManager.hasSelected(p, "NOTES_PULSE") ? "§eClick to select!" : "§aSELECTED!"));
 		ItemStack close = new CustomItem(Material.BARRIER, 1, "§cClose");
 		// ItemStack comingsoon = new CustomItem(Material.INK_SACK, 1, "§cComing soon!", 8);
 		inventory.setItem(11, NONE);
@@ -64,6 +71,7 @@ public class GuiKillEffectSelector implements Listener {
 		inventory.setItem(13, HEART_EXPLOSION);
 		inventory.setItem(14, HEAD_ROCKET);
 		inventory.setItem(15, FINAL_SMASH);
+		inventory.setItem(20, NOTES_PULSE);
 		inventory.setItem(49, close);
 		p.openInventory(inventory);
 	}
@@ -132,6 +140,17 @@ public class GuiKillEffectSelector implements Listener {
 							open(p);
 							p.playSound(p.getLocation(), Sound.NOTE_PLING, 1f, 2f);
 							p.sendMessage("§6You selected §aFinal Smash Kill Effect§6!");
+						} else {
+							p.sendMessage("§cYou have already selected this item!");
+							p.playSound(p.getLocation(), Sound.ENDERMAN_TELEPORT, 1f, 0.5f);
+						}
+					}
+					if (event.getSlot() == 20) {
+						if (!killEffectManager.hasSelected(p, "NOTES_PULSE")) {
+							killEffectManager.setKillEffect(p, "NOTES_PULSE");
+							open(p);
+							p.playSound(p.getLocation(), Sound.NOTE_PLING, 1f, 2f);
+							p.sendMessage("§6You selected §aNotes Pulse Kill Effect§6!");
 						} else {
 							p.sendMessage("§cYou have already selected this item!");
 							p.playSound(p.getLocation(), Sound.ENDERMAN_TELEPORT, 1f, 0.5f);

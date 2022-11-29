@@ -2,10 +2,12 @@
   <library name="craftbukkit-1.8.8-R0.1-SNAPSHOT-remapped">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../craftbukkit-1.8.8-R0.1-SNAPSHOT-remapped.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../spigot-1.8-R0.1-SNAPSHOT-latest.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../craftbukkit-1.8.8-R0.1-SNAPSHOT-remapped.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../spigot-1.8-R0.1-SNAPSHOT-latest.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -6,25 +6,55 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c6b8dec-b82e-4324-b795-5313c13e5add" name="Default Changelist" comment="" />
+    <list default="true" id="0c6b8dec-b82e-4324-b795-5313c13e5add" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tk/itsnotalan/swkilleffect/effects/KillEffectNotePulse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SkywarsKills_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SkywarsKills_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_8_8_R0_1_SNAPSHOT_remapped.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_8_8_R0_1_SNAPSHOT_remapped.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkywarsKills.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SkywarsKills.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tk/itsnotalan/swkilleffect/gui/GuiKillEffectSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tk/itsnotalan/swkilleffect/gui/GuiKillEffectSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tk/itsnotalan/swkilleffect/manager/KillEffectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tk/itsnotalan/swkilleffect/manager/KillEffectManager.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1XEkfp8sGp2ZX5OdogS3582cp2m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/spigot-1.8.3-R0.1-SNAPSHOT-latest.jar!/" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/dev/Java Codes/SkywarsKillEffects/config.yml",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tk.itsnotalan.swkilleffect.effects" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -38,6 +68,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -51,26 +82,15 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="181" key="#Project_Structure" timestamp="1580734150405">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1580734150405" />
-    <state x="855" y="251" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1580733684798">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="855" y="251" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580733684798" />
-    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1580734324359">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580734324359" />
-    <state x="505" y="112" key="SettingsEditor" timestamp="1580734348924">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="505" y="112" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580734348924" />
-    <state x="659" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1580731736712">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="659" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580731736712" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

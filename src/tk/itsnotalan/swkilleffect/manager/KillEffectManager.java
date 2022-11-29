@@ -1,20 +1,20 @@
 package tk.itsnotalan.swkilleffect.manager;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-
+import org.bukkit.Sound;
+import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.entity.Player;
 import tk.itsnotalan.swkilleffect.SWKillEffect;
 import tk.itsnotalan.swkilleffect.effects.KillEffect;
 import tk.itsnotalan.swkilleffect.effects.KillEffectBloodExplosion;
 import tk.itsnotalan.swkilleffect.effects.KillEffectHeartExplosion;
-import tk.itsnotalan.swkilleffect.utils.ConfigUtil;
-
-import org.bukkit.Sound;
-import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.entity.Player;
+import tk.itsnotalan.swkilleffect.effects.KillEffectNotePulse;
 import tk.itsnotalan.swkilleffect.effects.v1_8_R3.KillEffectFinalSmash;
 import tk.itsnotalan.swkilleffect.effects.v1_8_R3.KillEffectHeadRocket;
+import tk.itsnotalan.swkilleffect.utils.ConfigUtil;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 public class KillEffectManager {
 
@@ -26,6 +26,7 @@ public class KillEffectManager {
 		killEffects = new ArrayList<>();
 		registerKillEffect(new KillEffectBloodExplosion());
 		registerKillEffect(new KillEffectHeartExplosion());
+		registerKillEffect(new KillEffectNotePulse());
 		SWKillEffect.log("NMS Version: " + nmsVersion);
 		switch (nmsVersion) {
 		case "v1_8_R3":

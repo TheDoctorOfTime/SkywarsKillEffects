@@ -1,8 +1,11 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="SkywarsKills:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/SkywarsKills_jar</output-path>
+  <artifact type="jar" build-on-make="true" name="SkywarsKills:jar">
+    <output-path>$PROJECT_DIR$/SkywarsKills_jar</output-path>
     <root id="archive" name="SkywarsKills.jar">
       <element id="module-output" name="SkywarsKills" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/data.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
     </root>
   </artifact>
 </component>
