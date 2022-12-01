@@ -5,17 +5,16 @@
       <artifact name="SkywarsKills:jar" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0c6b8dec-b82e-4324-b795-5313c13e5add" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tk/itsnotalan/swkilleffect/effects/KillEffectNotePulse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SkywarsKills_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SkywarsKills_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_8_8_R0_1_SNAPSHOT_remapped.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_8_8_R0_1_SNAPSHOT_remapped.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tk/itsnotalan/swkilleffect/effects/KillEffectAngryTornado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/bukkit_1_8_8_R0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/bukkit_1_8_8_R0_1_SNAPSHOT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkywarsKills.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SkywarsKills.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tk/itsnotalan/swkilleffect/effects/KillEffectNotePulse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tk/itsnotalan/swkilleffect/effects/KillEffectNotePulse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tk/itsnotalan/swkilleffect/gui/GuiKillEffectSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tk/itsnotalan/swkilleffect/gui/GuiKillEffectSelector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tk/itsnotalan/swkilleffect/manager/KillEffectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tk/itsnotalan/swkilleffect/manager/KillEffectManager.java" afterDir="false" />
     </list>
@@ -44,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/dev/Java Codes/SkywarsKillEffects/config.yml",
+    "last_opened_file_path": "D:/Dev/minecraft plugins/SkywarsKillEffects/out/artifacts/SkywarsKills_jar",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -53,6 +52,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tk.itsnotalan.swkilleffect.effects.v1_8_R3" />
       <recent name="tk.itsnotalan.swkilleffect.effects" />
     </key>
   </component>

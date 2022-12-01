@@ -8,10 +8,10 @@ import tk.itsnotalan.swkilleffect.SWKillEffect;
 import tk.itsnotalan.swkilleffect.utils.ConfigUtil;
 import tk.itsnotalan.swkilleffect.utils.ParticleEffect;
 
-public class KillEffectNotePulse extends KillEffect {
+public class KillEffectAngryTornado extends KillEffect {
 
-	public KillEffectNotePulse() {
-		super("Notes Pulse", "NOTES_PULSE", Material.NOTE_BLOCK);
+	public KillEffectAngryTornado() {
+		super("Angry Tornado", "ANGRY_TORNADO", Material.OBSIDIAN);
 	}
 
 	@Override
@@ -27,35 +27,30 @@ public class KillEffectNotePulse extends KillEffect {
 		float speed = ConfigUtil.HEART_EXPLOSION_SPEED;
 
 		BukkitRunnable runnable = new BukkitRunnable() {
-			int i = 5;
+			int i = 0;
 			float m = 0;
 
 			@Override
 			public void run() {
-				if (i > 0) {
-
-					//
+				if (i <= 180) {
 					float size=1;
-					m += 0.3;
-					for(int d = 0; d <= 45; d += 1) {
+					m += 0.1;
 
-						Location particleLoc = new Location(loc.getWorld(), loc.getX(), loc.getY() + m, loc.getZ());
-						particleLoc.setX(loc.getX() + Math.cos(d) * size);
-						particleLoc.setZ(loc.getZ() + Math.sin(d) * size);
+					Location particleLoc = new Location(loc.getWorld(), loc.getX(), loc.getY() + m, loc.getZ());
+					particleLoc.setX(loc.getX() + Math.cos(i) * size);
+					particleLoc.setZ(loc.getZ() + Math.sin(i) * size);
 
-						ParticleEffect.NOTE.display(0, 0, 0, 1, 1, particleLoc, 256f);
-					}
-					//
+					ParticleEffect.VILLAGER_ANGRY.display(0, 0, 0, 1, 1, particleLoc, 256f);
 
-					i--;
-					if (i == 0) {
+					i++;
+					if (i > 45) {
 						cancel();
 					}
 				}
 			}
 
 		};
-		runnable.runTaskTimer(SWKillEffect.getInstance(), 1, 5);
+		runnable.runTaskTimer(SWKillEffect.getInstance(), 0, 1);
 	}
 
 }

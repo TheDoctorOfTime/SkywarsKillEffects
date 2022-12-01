@@ -4,10 +4,7 @@ import org.bukkit.Sound;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import tk.itsnotalan.swkilleffect.SWKillEffect;
-import tk.itsnotalan.swkilleffect.effects.KillEffect;
-import tk.itsnotalan.swkilleffect.effects.KillEffectBloodExplosion;
-import tk.itsnotalan.swkilleffect.effects.KillEffectHeartExplosion;
-import tk.itsnotalan.swkilleffect.effects.KillEffectNotePulse;
+import tk.itsnotalan.swkilleffect.effects.*;
 import tk.itsnotalan.swkilleffect.effects.v1_8_R3.KillEffectFinalSmash;
 import tk.itsnotalan.swkilleffect.effects.v1_8_R3.KillEffectHeadRocket;
 import tk.itsnotalan.swkilleffect.utils.ConfigUtil;
@@ -27,6 +24,7 @@ public class KillEffectManager {
 		registerKillEffect(new KillEffectBloodExplosion());
 		registerKillEffect(new KillEffectHeartExplosion());
 		registerKillEffect(new KillEffectNotePulse());
+		registerKillEffect(new KillEffectAngryTornado());
 		SWKillEffect.log("NMS Version: " + nmsVersion);
 		switch (nmsVersion) {
 		case "v1_8_R3":

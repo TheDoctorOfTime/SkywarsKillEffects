@@ -4,4 +4,13 @@ main: tk.itsnotalan.swkilleffect.SWKillEffect
 commands:
   swkilleffect:
     permission: swke.swke
-    aliases: [swek, skywarskilleffects]
+    aliases: [swke, skywarskilleffects, killeffects]
+  rank:
+    description: Finished a Season in the Top 10 Leaderboards
+    permission: rank.leaderboard_position
+
+permissions:
+  swke.swke:
+    default: true
+  rank.leaderboard_position:
+    default: false
