@@ -71,6 +71,13 @@ public class GuiKillEffectSelector implements Listener {
 				"§7cosmetic.",
 				"",
 				(!killEffectManager.hasSelected(p, "NOTES_PULSE") ? "§eClick to select!" : "§aSELECTED!"));
+		ItemStack LIGHTNING = new CustomItem(killEffectManager.getKillEffectById("LIGHTNING").getIcon(), 1,
+				"§aLightning Kill Effect",
+				"§7Select the Lightning",
+				"§7Kill Effect. This change is",
+				"§7cosmetic.",
+				"",
+				(!killEffectManager.hasSelected(p, "NOTES_PULSE") ? "§eClick to select!" : "§aSELECTED!"));
 		ItemStack close = new CustomItem(Material.BARRIER, 1, "§cClose");
 		// ItemStack comingsoon = new CustomItem(Material.INK_SACK, 1, "§cComing soon!", 8);
 		inventory.setItem(11, NONE);
@@ -80,6 +87,7 @@ public class GuiKillEffectSelector implements Listener {
 		inventory.setItem(15, FINAL_SMASH);
 		inventory.setItem(20, NOTES_PULSE);
 		inventory.setItem(21, ANGRY_TORNADO);
+		inventory.setItem(22, LIGHTNING);
 		inventory.setItem(49, close);
 		p.openInventory(inventory);
 	}
@@ -177,6 +185,23 @@ public class GuiKillEffectSelector implements Listener {
 								open(p);
 								p.playSound(p.getLocation(), Sound.NOTE_PLING, 1f, 2f);
 								p.sendMessage("§6You selected §aAngry Tornado Kill Effect§6!");
+							} else {
+								p.sendMessage("§cYou have already selected this item!");
+								p.playSound(p.getLocation(), Sound.ENDERMAN_TELEPORT, 1f, 0.5f);
+							}
+						}
+						else{
+							p.sendMessage("You must achieve top 10 at the end of the season to unlock this kill effect");
+							return;
+						}
+					}
+					if (event.getSlot() == 22) {
+						if(p.hasPermission("rank.leaderboard_player")) {
+							if (!killEffectManager.hasSelected(p, "LIGHTNING")) {
+								killEffectManager.setKillEffect(p, "LIGHTNING");
+								open(p);
+								p.playSound(p.getLocation(), Sound.NOTE_PLING, 1f, 2f);
+								p.sendMessage("§6You selected §aLightning Kill Effect§6!");
 							} else {
 								p.sendMessage("§cYou have already selected this item!");
 								p.playSound(p.getLocation(), Sound.ENDERMAN_TELEPORT, 1f, 0.5f);

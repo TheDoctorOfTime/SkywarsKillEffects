@@ -25,6 +25,7 @@ public class KillEffectManager {
 		registerKillEffect(new KillEffectHeartExplosion());
 		registerKillEffect(new KillEffectNotePulse());
 		registerKillEffect(new KillEffectAngryTornado());
+		registerKillEffect(new KillEffectLightning());
 		SWKillEffect.log("NMS Version: " + nmsVersion);
 		switch (nmsVersion) {
 		case "v1_8_R3":
